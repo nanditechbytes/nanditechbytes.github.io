@@ -18,13 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Welcome to Tech Bytes hosted on Github
+title: Welcome to NandiTechBytes hosted on Github.
 email: rajunandi91@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to My Portfolio: Senior DevOps Engineer
-  
-  Greetings! I'm Raju Nandi, Senior DevOps Engineer with a passion for orchestrating seamless software delivery pipelines and optimizing infrastructure scalability.
-  Here, I present my journey through the realms of DevOps, where innovation meets efficiency and reliability.
+  Welcome to My Portfolio: Senior Cloud and DevOps Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nanditechbytes.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  nanditechbytes
