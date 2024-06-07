@@ -11,10 +11,27 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    position: relative;
 }
 
 header h1 {
     margin: 0;
+}
+
+#social-handles {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#social-handles a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#social-handles a:hover {
+    text-decoration: underline;
 }
 
 main {
