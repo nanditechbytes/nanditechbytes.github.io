@@ -25,12 +25,18 @@
         }
         #about {
             margin-bottom: 20px; /* Add space below the About Me section */
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        #about-description {
+            flex: 1; /* Take remaining space */
+            margin-right: 20px; /* Add some space between description and social handles */
         }
         #social-handles {
             display: flex;
-            justify-content: flex-start;
             gap: 15px;
-            margin-bottom: 20px; /* Reduce gap between sections */
+            align-self: flex-start; /* Align to the top of the About Me section */
         }
         #social-handles a {
             text-decoration: none;
@@ -53,8 +59,10 @@
 </header>
 <main>
     <section id="about">
-        <h2>About Me</h2>
-        <p>I am a Lead Cloud & DevOps Engineer with over 10 years of experience. I am passionate about discussing cloud and DevOps topics. I have extensive experience working with various technologies and tools including AWS, Docker, Kubernetes, Terraform, Terratest, GitHub Actions, Jenkins, Ansible, CircleCI, Platform Engineering, Containerization, and Orchestration, as well as CI/CD pipelines. I love sharing knowledge and contributing to the DevOps community.</p>
+        <div id="about-description">
+            <h2>About Me</h2>
+            <p>I am a Lead Cloud & DevOps Engineer with over 10 years of experience. I am passionate about discussing cloud and DevOps topics. I have extensive experience working with various technologies and tools including AWS, Docker, Kubernetes, Terraform, Terratest, GitHub Actions, Jenkins, Ansible, CircleCI, Platform Engineering, Containerization, and Orchestration, as well as CI/CD pipelines. I love sharing knowledge and contributing to the DevOps community.</p>
+        </div>
         <div id="social-handles">
             <a href="https://linkedin.com/in/rajunandi91" target="_blank">LinkedIn</a>
             <a href="https://github.com/nanditechbytes" target="_blank">GitHub</a>
