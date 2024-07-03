@@ -24,7 +24,7 @@
             margin-top: 20px;
         }
         #about {
-            margin-bottom: 10px; /* Reduce gap between sections */
+            margin-bottom: 20px; /* Add space below the About Me section */
         }
         #social-handles {
             display: flex;
@@ -32,8 +32,14 @@
             gap: 15px;
             margin-bottom: 20px; /* Reduce gap between sections */
         }
+        #social-handles a {
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
         #vlogs {
-            margin-top: 20px; /* Reduce gap between About Me and Vlogs section */
+            margin-top: 20px;
         }
         footer {
             margin-top: 40px;
@@ -49,18 +55,16 @@
     <section id="about">
         <h2>About Me</h2>
         <p>I am a Lead Cloud & DevOps Engineer with over 10 years of experience. I am passionate about discussing cloud and DevOps topics. I have extensive experience working with various technologies and tools including AWS, Docker, Kubernetes, Terraform, Terratest, GitHub Actions, Jenkins, Ansible, CircleCI, Platform Engineering, Containerization, and Orchestration, as well as CI/CD pipelines. I love sharing knowledge and contributing to the DevOps community.</p>
+        <div id="social-handles">
+            <a href="https://linkedin.com/in/rajunandi91" target="_blank">LinkedIn</a>
+            <a href="https://github.com/nanditechbytes" target="_blank">GitHub</a>
+            <a href="https://youtube.com/@nanditechbytes?si=TKHlZQ635WNkPpOe" target="_blank">YouTube</a>
+        </div>
     </section>
-    <div id="social-handles">
-        <a href="https://linkedin.com/in/rajunandi91" target="_blank">LinkedIn</a>
-        <a href="https://github.com/nanditechbytes" target="_blank">GitHub</a>
-        <a href="https://youtube.com/@nanditechbytes?si=TKHlZQ635WNkPpOe" target="_blank">
-            <img src="youtube.png" alt="YouTube Logo" style="width:30px;height:30px;vertical-align:middle;"> YouTube
-        </a>
-    </div>
     <section id="vlogs">
         <h2>YouTube Vlogs</h2>
         <a href="https://youtube.com/@nanditechbytes?si=TKHlZQ635WNkPpOe" target="_blank">
-            <img src="youtube.png" alt="YouTube Logo" style="width:50px;height:30px;vertical-align:middle;"> Subscribe @NandiTechBytes
+            Subscribe @NandiTechBytes
         </a>
     </section>
 </main>
