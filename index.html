@@ -18,21 +18,22 @@
             text-align: center;
             margin-top: 40px;
         }
-        #social-handles {
+        #content {
             display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin: 20px 0;
+            justify-content: space-between;
+            width: 80%;
+            max-width: 1200px;
+            margin-top: 40px;
         }
         #about {
-            margin-top: 20px;
-            width: 80%;
-            max-width: 800px;
+            width: 60%;
         }
-        #vlogs {
-            margin-top: 40px;
-            width: 80%;
-            max-width: 800px;
+        #social-handles {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 15px;
+            width: 35%;
         }
         footer {
             margin-top: 40px;
@@ -43,6 +44,12 @@
 <body>
 <header>
     <h1>Hi! I am Raju Nandi</h1>
+</header>
+<div id="content">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Lead Cloud & DevOps Engineer with over 10 years of experience. I am passionate about discussing cloud and DevOps topics. I have extensive experience working with various technologies and tools including AWS, Docker, Kubernetes, Terraform, Terratest, GitHub Actions, Jenkins, Ansible, CircleCI, Platform Engineering, Containerization, and Orchestration, as well as CI/CD pipelines. I love sharing knowledge and contributing to the DevOps community.</p>
+    </section>
     <div id="social-handles">
         <a href="https://linkedin.com/in/rajunandi91" target="_blank">LinkedIn</a>
         <a href="https://github.com/nanditechbytes" target="_blank">GitHub</a>
@@ -50,12 +57,8 @@
             <img src="youtube.png" alt="YouTube Logo" style="width:30px;height:30px;vertical-align:middle;"> YouTube
         </a>
     </div>
-</header>
+</div>
 <main>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a Lead Cloud & DevOps Engineer with over 10 years of experience. I am passionate about discussing cloud and DevOps topics. I have extensive experience working with various technologies and tools including AWS, Docker, Kubernetes, Terraform, Terratest, GitHub Actions, Jenkins, Ansible, CircleCI, Platform Engineering, Containerization, and Orchestration, as well as CI/CD pipelines. I love sharing knowledge and contributing to the DevOps community.</p>
-    </section>
     <section id="vlogs">
         <h2>YouTube Vlogs</h2>
         <a href="https://youtube.com/@nanditechbytes?si=TKHlZQ635WNkPpOe" target="_blank">
@@ -68,3 +71,4 @@
 </footer>
 </body>
 </html>
+
