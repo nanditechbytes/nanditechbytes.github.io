@@ -18,24 +18,19 @@
             text-align: center;
             margin-top: 40px;
         }
-        #content {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start; /* Align items at the start of the flex container */
+        main {
             width: 80%;
             max-width: 1200px;
-            margin-top: 40px;
+            margin-top: 20px;
         }
         #about {
-            width: 60%;
+            margin-bottom: 20px; /* Reduce gap between sections */
         }
         #social-handles {
             display: flex;
-            flex-direction: column;
-            align-items: flex-start; /* Align items to the start of the flex container */
+            justify-content: flex-start;
             gap: 15px;
-            width: 35%;
-            margin-top: 0; /* Remove top margin for better alignment */
+            margin-bottom: 20px; /* Reduce gap between sections */
         }
         footer {
             margin-top: 40px;
@@ -47,7 +42,7 @@
 <header>
     <h1>Hi! I am Raju Nandi</h1>
 </header>
-<div id="content">
+<main>
     <section id="about">
         <h2>About Me</h2>
         <p>I am a Lead Cloud & DevOps Engineer with over 10 years of experience. I am passionate about discussing cloud and DevOps topics. I have extensive experience working with various technologies and tools including AWS, Docker, Kubernetes, Terraform, Terratest, GitHub Actions, Jenkins, Ansible, CircleCI, Platform Engineering, Containerization, and Orchestration, as well as CI/CD pipelines. I love sharing knowledge and contributing to the DevOps community.</p>
@@ -59,8 +54,6 @@
             <img src="youtube.png" alt="YouTube Logo" style="width:30px;height:30px;vertical-align:middle;"> YouTube
         </a>
     </div>
-</div>
-<main>
     <section id="vlogs">
         <h2>YouTube Vlogs</h2>
         <a href="https://youtube.com/@nanditechbytes?si=TKHlZQ635WNkPpOe" target="_blank">
